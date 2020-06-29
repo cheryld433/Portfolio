@@ -1,19 +1,14 @@
 <!doctype html>
 <html lang="en">
 <head>
-     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <!--Stylesheets-->
-        <link href="stylesheet.css" rel="stylesheet" type="text/css">
-    <!--Google Font--> 
+    <link href="stylesheet.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
       <title>Cheryl Daniels</title>
 </head>
 <body>
-  <div class="container">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container">
         <a class="navbar-brand" href="index.html" id="logo">Cheryl Daniels</a>
@@ -32,49 +27,77 @@
             <li class="nav-item">
               <a class="nav-link active" href="contact.html">Contact</a>
             </li>
+            
           </ul>
         </div>
       </div>
     </nav>
-  </div>
-  <form class="container" id="contactContainer">
-    <div class="row">
-      <div class="col-sm-4">
-        <img src="Assets/Images/code-image.jpg" class="img-thumbnail" alt="Example of developer language" width="304" height="236"> 
+
+   
+
+
+  <section>
+    <div class="container container-three">
+      <div class="row">
+        <div class="col-sm-4">
+          <h1 class="my-3 border-bottom">Contact Me</h1>
+          <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="dark" data-vanity="cheryl-daniels-17171619a"><a class="LI-simple-link" href='https://www.linkedin.com/in/cheryl-daniels-17171619a?trk=profile-badge'>Cheryl Daniels</a></div>
+          <!-- <img src="./Assets/Images/contact photo.png" class="img-thumbnail" alt="Example of developer language" width="304" height="236">  -->
+        </div>
+        <div class="col-sm-8">
+          <form>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" class="form-control" id="name" name="fullname" placeholder="John Smith">
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" name="email"
+                    placeholder="example@gmail.com">
+            </div>
+            <div class="form-group">
+                <label for="msg">Message:</label>
+                <textarea id="msg" class="form-control" name="message" rows="4"></textarea>
+            </div>
+              <a href="https://www.linkedin.com/in/cheryl-daniels-17171619a/" class="social-icon si-rounded si-small si-linkedin">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            <input type="submit" id="submit" value="Submit">
+        </form>
+        </div>
       </div>
-      <div class="card" style="width: 30rem;">
-        <div class="card-body">
-          <h5 class="card-title">Contact Information</h5>
-          <h6 class="card-subtitle mb-2 text-muted"></h6>
-          <ul>
-            <li>Email:<a href="mailto:cheryld433@gmail.com">cheryld433@gmail.com</a></li>
-            <li>Phone:<a href="tel:9104652215">910-465-2215</a></li>
-            <li>Github: <a href="http://www.github.com/cheryld433">cheryld433</a></li>
-            <li>LinkedIn: <a href="https://www.linkedin.com/in/cheryl-daniels-17171619a/">Cheryl Daniels</a>
-            </li>
-            <li>Resume</li>
-          </ul>
+  <section>
+    </form>
+    <div class="container container-four">
+      <div class="row">
+        <div class="col-sm">
+         <p>Email:<a href="mailto:cheryld433@gmail.com">cheryld433@gmail.com</a></p>
+        </div>
+        <div class="col-sm">
+          <p>Phone:<a href="tel:9104652215">910-465-2215</a></p>
+        </div>
+        <div class="col-sm">
+          <p>Github: <a href="http://www.github.com/cheryld433">cheryld433</a></p>
+        </div>
+        <div class="col-sm">
+         <p>Resume: <a href="./cheryldaniels-resume.pdf">Cheryl Daniels</a></p>
         </div>
       </div>
     </div>
-  </form>
-  <br>
-  <br>
-  <br>
+  </section>
+
   <footer class="page-footer font-small blue">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="footer-copyright text-center py-3">Created by Cheryl Daniels</div>
-        </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="footer-copyright text-center py-3"><small>&copy; Copyright 2020 Cheryl Daniels. All Rights Reserved.</small>
+        </p></div>
       </div>
     </div>
   </footer>
-            <!-- Optional JavaScript -->
-            <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      
    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-
+   <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
 </body>
 </html>

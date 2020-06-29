@@ -1,35 +1,76 @@
-
+/* Background */
 div::after {
     content: "";
-    background: url(http://www.angico.org/wp-content/uploads/2018/10/computers-and-technology-1160x550.jpg);
-    opacity: 0.1;
+    /* background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSrxE2hgZyfP5tQo225WnyTTZkI8wbc7A-Ikw&usqp=CAU"); */
+    opacity: 0.3;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
-    position: absolute;
-    z-index: -1;   
-}
-header {
-margin: 3px;
-}
-.navbar {
+    position: scroll;
+    background-repeat: repeat-x;
+    opacity: 0.3; 
+    z-index: 1;   
+} 
 
-align-items: center;
+.parallax {
+    /* The image used */
+    background-image: url("https://www.jcpportraits.com/sites/jcpportraits.com/files/styles/portrait_background/public/background/1801/183-161_backgroundimages_fixit.jpg?itok=D3asFK6b");
+  
+    /* Set a specific height */
+    height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    /* opacity: 0.1; */
+    /* z-index: 1;   */
 }
-.container {
-margin-top: 10px;
+
+/* Body */
+header {
+    margin: 3px;
+}
+
+.navbar {
+    align-items: center;
+}
+
+.container-one {
+    margin-top: 35px;
+    background-color: white;
+}
+
+#container-two {
+    margin-top: 35px;
+    background-color:#787676;
+}
+
+.container-three {
+    margin-top: 35px; 
+    background-color: white;
+}
+.container-four {
+    margin-top: 15px;
+    background-color: white;
+    border-radius: 3px;
 }
 
 #contactContainer {
-    margin-top: 40px;
-
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 200px;
+    margin-right: 100px;
 }
 
 #row {
-padding: 40px;
-margin-bottom: 20px;
-margin-left: 200px;
+    padding: 15px;
+    padding-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 300px;
+    margin-right: 50px;
 }
 
 .card{
@@ -37,27 +78,52 @@ margin-left: 200px;
 }
 
 .form-control {
-margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
-
+.page-footer {
+    position: fixed; 
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    z-index: 1;
+    text-decoration-color: floralwhite;
+    background-color:#212529 ;
+}
 footer {
-margin-top: 20px;
-
+    color: white;
 }
+
 .h1 {
-font-style: italic;
+    font-style: italic;
+}
+
+.h2, .p {
+    text-decoration-color: ccc;
 }
 
 #logo {
-font-size: 35px;
-font-weight: bold;
+    font-size: 35px;
+    font-weight: bold;
+}
+img {
+    width: 100%;
+    height: auto;
+  }
+
+#contactList {
+    text-size-adjust: 50%;
 }
 
-#cardImg {
-    max-width: 100%;
-    height: auto;
-    border: 1px, solid, black;
+#aboutMe {
+    margin-top: 70px;
 }
+
+#submit {
+    background-color:darkslategray;
+    color: white;
+}
+
 
 

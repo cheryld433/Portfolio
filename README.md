@@ -6,4 +6,4 @@ I am currently learning full-stack web development at UNC Chapel Hill. This prog
 
 ## Usage:
 
-![](deployed-portfolio)
+![](deployed-portfolio.jpg)

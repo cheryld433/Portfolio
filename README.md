@@ -1,6 +1,6 @@
 # CHERYL DANIELS PORTFOLIO
 
-<!-- ![License: GPL](https://img.shields.io/badge/License-GPL-brightgreen) -->
+![License: none]()
 
 ## Description: 
 I have always enjoyed learing new things, just last year I taught myself how to flip houses. This experience gave me the opportunity to work on my creative side. I was able to take a home that needed a bit of care, work with a team of experts and bring the home back to life. This experience helped me hone my organization skills, the value of teamwork, and reminded me of the importance of patience.
